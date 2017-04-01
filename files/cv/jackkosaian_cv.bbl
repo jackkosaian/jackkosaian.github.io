@@ -1,0 +1,9 @@
+\begin{thebibliography}{1}
+
+\bibitem{eccache}
+K.~V. Rashmi, M.~Chowdhury, J.~Kosaian, I.~Stoica, and K.~Ramchandran.
+\newblock Ec-cache: Load-balanced, low-latency cluster caching with online
+  erasure coding.
+\newblock In {\em OSDI}, 2016.
+
+\end{thebibliography}

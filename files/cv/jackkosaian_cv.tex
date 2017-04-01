@@ -1,0 +1,108 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+
+\usepackage{etoolbox}
+\patchcmd{\thebibliography}{\section*{\refname}}{}{}{}
+
+\name{Jack Kosaian} % Your name
+\address{(810)~$\cdot$~623~$\cdot$~9945 \\ pkosaian@umich.edu} % Your phone number and email
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf University of Michigan, Ann Arbor} \hfill {\em December 2016} \\ 
+B.S.E. in Computer Science \& Engineering \\
+GPA: 3.941 / 4.000
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Awards}
+- NSF Graduate Research Fellowship (2017)\\
+- Angell Scholar (2015)\\
+- Branstrom Prize (2014)
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	RESEARCH EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Research}
+
+\begin{rSubsection}{Software Systems Laboratory}{January 2016 - Present}{Undergraduate Research Assistant}{Ann Arbor, MI}
+\item Geo-distributed Analytics: Co-optimizing scheduling and routing of jobs across datacenters
+\item EC-Cache: Using erasure coding to mitigate load imbalance and reduce read latencies for cluster storage
+\end{rSubsection}
+
+\begin{rSubsection}{Laboratory for Interactive Visualization in Engineering}{June 2014 - April 2015}{Undergraduate Research Assistant}{Ann Arbor, MI}
+\item SmartDig: Computer vision techniques to perform automatic, accurate pose-estimation of excavators
+\end{rSubsection}
+
+\begin{rSubsection}{S.M. Wu Manufacturing Research Center}{Jan. 2014 - Dec. 2014}{Undergraduate Research Assistant}{Ann Arbor, MI}
+\item Intelligent Eye Model: Anatomically accurate model of they eye used to train ophthalmology residents
+\end{rSubsection}
+\end{rSection}
+
+\begin{rSection}{Publications}
+\bibliographystyle{plain}
+\bibliography{cv}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Industry}
+
+\begin{rSubsection}{Google}{May 2017 - August 2017}{Software Engineering
+Intern}{Seattle, WA}
+\item BigQuery
+\end{rSubsection}
+
+\begin{rSubsection}{Google}{May 2016 - August 2016}{Software Engineering
+Intern}{Mountain View, CA}
+\item Cloud Technical Infrastructure: Kernel Virtualization
+\end{rSubsection}
+
+\begin{rSubsection}{Epic Systems Corporation}{May 2015 - August 2015}{Software
+Development Intern}{Verona, WI}
+\item InPatient: Scoring System Analysis and Visualization
+\end{rSubsection}
+\end{rSection}
+
+\begin{rSection}{Teaching}
+- EECS 370: Introduction to Computer Organization (F15, W16)
+\end{rSection}
+
+\end{document}
