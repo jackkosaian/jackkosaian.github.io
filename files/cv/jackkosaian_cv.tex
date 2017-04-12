@@ -23,12 +23,13 @@
 \documentclass{resume} % Use the custom resume.cls style
 
 \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage{hyperref}
 
 \usepackage{etoolbox}
 \patchcmd{\thebibliography}{\section*{\refname}}{}{}{}
 
 \name{Jack Kosaian} % Your name
-\address{(810)~$\cdot$~623~$\cdot$~9945 \\ pkosaian@umich.edu} % Your phone number and email
+\address{\href{https://jackkosaian.github.io}{jackkosaian.github.io} \\ pkosaian@umich.edu}
 
 \begin{document}
 
@@ -37,8 +38,10 @@
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Education}
+{\bf Carnegie Mellon University} \hfill {Aug. 2017 - Present} \\
+Ph.D. in Computer Science
 
-{\bf University of Michigan, Ann Arbor} \hfill {\em December 2016} \\ 
+{\bf University of Michigan, Ann Arbor} \hfill {Sept. 2013 - Dec. 2016} \\ 
 B.S.E. in Computer Science \& Engineering \\
 GPA: 3.941 / 4.000
 
@@ -60,7 +63,7 @@ GPA: 3.941 / 4.000
 
 \begin{rSection}{Research}
 
-\begin{rSubsection}{Software Systems Laboratory}{January 2016 - Present}{Undergraduate Research Assistant}{Ann Arbor, MI}
+\begin{rSubsection}{Software Systems Laboratory}{Jan. 2016 - Present}{Undergraduate Research Assistant}{Ann Arbor, MI}
 \item Geo-distributed Analytics: Co-optimizing scheduling and routing of jobs across datacenters
 \item EC-Cache: Using erasure coding to mitigate load imbalance and reduce read latencies for cluster storage
 \end{rSubsection}
@@ -85,17 +88,17 @@ GPA: 3.941 / 4.000
 
 \begin{rSection}{Industry}
 
-\begin{rSubsection}{Google}{May 2017 - August 2017}{Software Engineering
+\begin{rSubsection}{Google}{May 2017 - July 2017}{Software Engineering
 Intern}{Seattle, WA}
 \item BigQuery
 \end{rSubsection}
 
-\begin{rSubsection}{Google}{May 2016 - August 2016}{Software Engineering
+\begin{rSubsection}{Google}{May 2016 - Aug. 2016}{Software Engineering
 Intern}{Mountain View, CA}
 \item Cloud Technical Infrastructure: Kernel Virtualization
 \end{rSubsection}
 
-\begin{rSubsection}{Epic Systems Corporation}{May 2015 - August 2015}{Software
+\begin{rSubsection}{Epic Systems Corporation}{May 2015 - Aug. 2015}{Software
 Development Intern}{Verona, WI}
 \item InPatient: Scoring System Analysis and Visualization
 \end{rSubsection}
