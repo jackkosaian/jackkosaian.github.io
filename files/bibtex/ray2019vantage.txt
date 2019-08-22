@@ -1,0 +1,6 @@
+@inproceedings{ray2019vantage,
+  author = {Devdeep Ray and Jack Kosaian and K. V. Rashmi and Srinivasan Seshan},
+  title = {{Vantage: Optimizing video upload for time-shied viewing of social live streams}},
+  booktitle = {Proceedings of the {ACM} Special Interest Group on Data Communication ({SIGCOMM} 19)},
+  year = {2019}
+}

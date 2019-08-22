@@ -1,4 +1,4 @@
-@inproceedings {rashmi2016eccache,
+@inproceedings{rashmi2016eccache,
   author = {K. V. Rashmi and Mosharaf Chowdhury and Jack Kosaian and Ion Stoica and Kannan Ramchandran},
   title = {{EC-Cache: Load-Balanced, Low-Latency Cluster Caching with Online Erasure Coding}},
   booktitle = {12th {USENIX} Symposium on Operating Systems Design and Implementation ({OSDI} 16)},
