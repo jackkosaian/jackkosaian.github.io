@@ -22,9 +22,6 @@
 
     <h3>Preprints</h3>
     <ul>
-      <li><a href="https://arxiv.org/abs/2104.09455">Arithmetic-Intensity-Guided Fault Tolerance for Neural Network Inference on GPUs</a>
-          <br/>Jack Kosaian, K. V. Rashmi
-      </li><br />
       <li><a href="https://arxiv.org/abs/2104.01981">ECRM: Efficient Fault Tolerance for Recommendation Model Training via Erasure Coding</a>
           <br/>Kaige Liu, Jack Kosaian, K. V. Rashmi
       </li>
@@ -32,22 +29,29 @@
 
     <h3>Conference Publications</h3>
     <ul>
-      <li><a href="#">Boosting the Throughput and Accelerator Utilization of Specialized CNN Inference Beyond Increasing Batch Size</a>
+      <li><a href="#">Arithmetic-Intensity-Guided Fault Tolerance for Neural Network Inference on GPUs</a>
+          <br/>Jack Kosaian, K. V. Rashmi
+          <br/><a href="https://sc21.supercomputing.org/", class="venue">SC 2021 (to appear)</a>
+          <br/>[<a href="https://arxiv.org/abs/2104.09455">preprint</a> (final version in preparation)]
+      </li><br />
+
+      <li><a href="files/papers/icml2021folded-cnns.pdf">Boosting the Throughput and Accelerator Utilization of Specialized CNN Inference Beyond Increasing Batch Size</a>
           <br/>Jack Kosaian, Amar Phanishayee, Matthai Philipose, Debadeepta Dey, K. V. Rashmi
-          <br/>ICML 2021 (to appear)
+          <br/><a href="https://icml.cc/", class="venue">ICML 2021 (to appear)</a>
+          <br/>[<a href="https://github.com/msr-fiddle/folded-cnns">code</a>]
       </li><br />
       <li><a href="files/papers/sosp2019parity-models.pdf">Parity Models: Erasure-Coded Resilience for Prediction Serving Systems</a>
           <br/>Jack Kosaian, K. V. Rashmi, Shivaram Venkataraman
-          <br/>ACM SOSP 2019
+          <br/><a href="https://sosp19.rcs.uwaterloo.ca/", class="venue">ACM SOSP 2019</a>
           <br>[<a href="https://github.com/thesys-lab/parity-models">code</a>] [<a href="files/slides/sosp19_parity-models.pdf">slides</a>] [<a href="https://sosp19.rcs.uwaterloo.ca/videos/D1-S1-P3.mp4">video</a>]
       </li><br />
       <li><a href="files/papers/sigcomm2019vantage.pdf">Vantage: Optimizing Video Upload for Time-shifted Viewing of Social Live Streams</a>
           <br/>Devdeep Ray, Jack Kosaian, K. V. Rashmi, Srinivasan Seshan
-          <br/>ACM SIGCOMM 2019
+          <br/><a href="https://conferences.sigcomm.org/sigcomm/2019/", class="venue">ACM SIGCOMM 2019</a>
       </li><br />
       <li><a href="https://www.usenix.org/system/files/conference/osdi16/osdi16-rashmi.pdf">EC-Cache: Load-Balanced, Low-Latency Cluster Caching with Online Erasure Coding</a>
           <br/>K. V. Rashmi, Mosharaf Chowdhury, Jack Kosaian, Ion Stoica, Kannan Ramchandran
-          <br/>USENIX OSDI 2016
+          <br/><a href="https://www.usenix.org/conference/osdi16", class="venue">USENIX OSDI 2016</a>
       </li>
     </ul>
 
@@ -55,7 +59,7 @@
     <ul>
       <li><a href="https://ieeexplore.ieee.org/document/9047948/">Learning-Based Coded Computation</a>
           <br/>Jack Kosaian, K. V. Rashmi, Shivaram Venkataraman
-          <br/>IEEE Journal on Selected Areas in Information Theory, 2020
+          <br/><a href="https://www.itsoc.org/jsait", class="venue">IEEE Journal on Selected Areas in Information Theory, 2020</a>
           <br>[<a href="https://github.com/thesys-lab/parity-models">code</a>] [<a href="https://deepcomm.github.io/jekyll/pixyll/2020/06/22/learned-coded-computation-part1/">blog</a>]
       </li>
     </ul>
@@ -78,14 +82,21 @@
   </body>
 </html>
 
-<style type="text/css">
+<style type="text/css"> 
+  a.venue {
+    text-decoration: none;
+    color: #000000;
+  }
+  a.venue:hover {
+    text-decoration: underline;
+  }
   a {
     text-decoration: none;
     color: #0066ff;
   }
   a:hover {
     text-decoration: underline;
-  }
+  } 
   ol li {
     margin: 10px 0;
   }
